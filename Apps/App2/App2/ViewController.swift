@@ -45,7 +45,7 @@ class ViewController: UIViewController, ViewControllerProtocol {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .blue.withAlphaComponent(0.3)
     }
     
     // ViewControllerProtocol Protocols
