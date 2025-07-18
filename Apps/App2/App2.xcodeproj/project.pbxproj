@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DE9E6E932E2A32FE00E9A549 /* NetworkModule in Frameworks */ = {isa = PBXBuildFile; productRef = DE9E6E922E2A32FE00E9A549 /* NetworkModule */; };
+		DE9E6E992E2A359D00E9A549 /* DavinciKit in Frameworks */ = {isa = PBXBuildFile; productRef = DE9E6E982E2A359D00E9A549 /* DavinciKit */; };
+		DE9E6E9F2E2A35BC00E9A549 /* FeatureA in Frameworks */ = {isa = PBXBuildFile; productRef = DE9E6E9E2E2A35BC00E9A549 /* FeatureA */; };
+		DE9E6EA22E2A35D000E9A549 /* FeatureB in Frameworks */ = {isa = PBXBuildFile; productRef = DE9E6EA12E2A35D000E9A549 /* FeatureB */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9E6E992E2A359D00E9A549 /* DavinciKit in Frameworks */,
 				DE9E6E932E2A32FE00E9A549 /* NetworkModule in Frameworks */,
+				DE9E6EA22E2A35D000E9A549 /* FeatureB in Frameworks */,
+				DE9E6E9F2E2A35BC00E9A549 /* FeatureA in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +137,9 @@
 			name = App2;
 			packageProductDependencies = (
 				DE9E6E922E2A32FE00E9A549 /* NetworkModule */,
+				DE9E6E982E2A359D00E9A549 /* DavinciKit */,
+				DE9E6E9E2E2A35BC00E9A549 /* FeatureA */,
+				DE9E6EA12E2A35D000E9A549 /* FeatureB */,
 			);
 			productName = App2;
 			productReference = DE9E6E5D2E2A301A00E9A549 /* App2.app */;
@@ -216,6 +225,9 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				DE9E6E912E2A32FE00E9A549 /* XCLocalSwiftPackageReference "../../Packages/Core/NetworkModule" */,
+				DE9E6E972E2A359D00E9A549 /* XCLocalSwiftPackageReference "../../Packages/DesignSystem/DavinciKit" */,
+				DE9E6E9D2E2A35BC00E9A549 /* XCLocalSwiftPackageReference "../../Packages/Features/FeatureA" */,
+				DE9E6EA02E2A35D000E9A549 /* XCLocalSwiftPackageReference "../../Packages/Features/FeatureB" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DE9E6E5E2E2A301A00E9A549 /* Products */;
@@ -584,12 +596,36 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../Packages/Core/NetworkModule;
 		};
+		DE9E6E972E2A359D00E9A549 /* XCLocalSwiftPackageReference "../../Packages/DesignSystem/DavinciKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Packages/DesignSystem/DavinciKit;
+		};
+		DE9E6E9D2E2A35BC00E9A549 /* XCLocalSwiftPackageReference "../../Packages/Features/FeatureA" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Packages/Features/FeatureA;
+		};
+		DE9E6EA02E2A35D000E9A549 /* XCLocalSwiftPackageReference "../../Packages/Features/FeatureB" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Packages/Features/FeatureB;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		DE9E6E922E2A32FE00E9A549 /* NetworkModule */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NetworkModule;
+		};
+		DE9E6E982E2A359D00E9A549 /* DavinciKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DavinciKit;
+		};
+		DE9E6E9E2E2A35BC00E9A549 /* FeatureA */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FeatureA;
+		};
+		DE9E6EA12E2A35D000E9A549 /* FeatureB */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FeatureB;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
